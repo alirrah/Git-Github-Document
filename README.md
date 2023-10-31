@@ -145,7 +145,7 @@ git config --list
 1. ترمینال (یا git bash در ویندوز) را باز کنید.
 2. دستور `ssh-keygen` را بزنید و سپس ۳ بار enter بزنید تا تنظیمات پیش‌فرض استفاده شود. شکل کلی به صورت زیر خواهد بود:
 
-<p align="center"><img src="./ssh-keygen.png" alt="save file in git"></p>
+<p align="center"><img src="./ssh-keygen.PNG" alt="save file in git"></p>
 
 3. دستور زیر را بزنید.
 
@@ -208,7 +208,7 @@ ssh-add ~/.ssh/id_rsa
 
 این دستور، آدرس کامل دایرکتوری (یا فولدر) فعلی را به ما نشان می‌دهد. در واقع نشان می‌دهد که دستوراتی که اجرا می‌کنیم در کدام دایرکتوری اجرا می‌شوند.
 
-<p align="center"><img src="./pwd.png" alt="save file in git"></p>
+<p align="center"><img src="./pwd.PNG" alt="save file in git"></p>
 
 ### دستور cd (change directory):
 
@@ -228,7 +228,7 @@ cd test
 
 کمی پایین‌تر مثالی دیگر از آدرس مطلق و آدرس نسبی می‌آوریم تا فرق این دو واضح‌تر شود.
 
-<p align="center"><img src="./cd.png" alt="save file in git"></p>
+<p align="center"><img src="./cd.PNG" alt="save file in git"></p>
 
  
 در آدرس دهی می‌توان از .. به عنوان دایرکتوری پدر (دایرکتوری‌ای که شامل دایرکتوری فعلی است) و از ~ به عنوان home استفاده کرد. برای رفتن به Desktop هم می‌توان از دستور زیر استفاده کرد.
@@ -253,7 +253,7 @@ cd dir
 
 این دستور محتویات دایرکتوری فعلی را نمایش می‌دهد. اگر آدرس دایرکتوری دیگری را پس از ls تایپ کنیم، محتویات آن دایرکتوری را به ما نمایش می‌دهد.
 
-<p align="center"><img src="./ls.png" alt="save file in git"></p>
+<p align="center"><img src="./ls.PNG" alt="save file in git"></p>
 
 
 دستور زیر همه فایل‌های دایرکتوری شامل فایل‌های مخفی (فایل‌هایی که نامشان با . شروع می‌شود) را نمایش می‌دهد.
@@ -272,14 +272,14 @@ mkdir test
 
 در تصویر زیر به Desktop می‌رویم و پوشه‌ای جدید به نام alireza می‌سازیم.
 
-<p align="center"><img src="./mkdir.png" alt="save file in git"></p>
+<p align="center"><img src="./mkdir.PNG" alt="save file in git"></p>
 
 
 ### دستور touch:
 
 این دستور یک فایل جدید و خالی به اسم داده شده می‌سازد.
 
-<p align="center"><img src="./touch.png" alt="save file in git"></p>
+<p align="center"><img src="./touch.PNG" alt="save file in git"></p>
 
  
 ### دستور cp (copy):
@@ -347,21 +347,21 @@ nano test
 
 با اجرای دستور بالا وارد محیط nano می‌شویم که شبیه تصویر زیر است.
 
-<p align="center"><img src="./nano.png" alt="save file in git"></p>
+<p align="center"><img src="./nano.PNG" alt="save file in git"></p>
  
 در این محیط می‌توانیم به صورت عادی هر چیزی در فایل بنویسیم (مثل تصویر زیر).
 
-<p align="center"><img src="./nano-text.png" alt="save file in git"></p>
+<p align="center"><img src="./nano-text.PNG" alt="save file in git"></p>
 
  
 به پایین تصویر بالا دقت کنید. nano همواره در پایین ترمینال دستوراتی که می‌توانیم وارد کنیم را می‌نویسد. به عنوان مثال مشاهده می‌کنیم که ترکیب O + ctrl برای دستور WriteOut گفته شده است که در واقع به معنی ذخیره تغییرات فایل است. O + ctrl را با هم فشار دهید تا فایل ذخیره شود. مطابق تصویر زیر مشاهده می‌کنیم که nano از ما برای ذخیره کردن، نام یک فایل می‌خواهد که به صورت پیش‌فرض همان test است.
 
-<p align="center"><img src="./nano-o.png" alt="save file in git"></p>
+<p align="center"><img src="./nano-o.PNG" alt="save file in git"></p>
 
  
 با فشردن enter همین نام را تایید می‌کنیم تا فایل‌مان ذخیره شود. حال که فایل‌مان ذخیره شده است، بیایید با هم از محیط nano خارج شویم. مشاهده می‌کنیم که در زیر صفحه برای Exit ترکیب X + ctrl نوشته شده است. با فشردن این ترکیب از محیط nano به محیط ترمینال برمی‌گردیم. نکته آخر حائز اهمیت این است که اگر بدون این که فایل را ذخیره کنیم سعی کنیم از nano خارج شویم، nano مشابه تصویر زیر از ما می‌پرسد که آیا می‌خواهیم قبل خارج شدن، فایل را برایمان ذخیره کند یا خیر.
 
-<p align="center"><img src="./nano-exit.png" alt="save file in git"></p>
+<p align="center"><img src="./nano-exit.PNG" alt="save file in git"></p>
 
 
 که باز هم در پایین ترمینال می‌بینیم که می‌توانیم با Y و N (به معنی Yes و No) به این سوال پاسخ دهیم یا با C + ctrl به محیط nano برگردیم.
